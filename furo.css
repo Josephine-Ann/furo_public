@@ -1,0 +1,114 @@
+body {
+    margin:0;
+    font-family:Helvetica;
+}
+
+.wrapper {
+    height:100%;
+    background-image:url(background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.furologo {
+    float:left;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+
+.navigation-bar {
+    text-align: right;
+}
+.navigation-bar ul {
+
+  float: right;
+}
+
+.navigation-bar ul li {
+  padding: 10px;
+  margin: 20px;
+  display:flex;
+  vertical-align:top;
+  float:left;
+
+}
+
+.navigation-bar  ul li a {
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        
+    line-height: 80px;
+    float:right;
+    text-decoration: none;
+}
+
+.navigation-bar2 {
+    text-align: right;
+}
+.navigation-bar2 ul {
+
+  float: right;
+}
+
+.navigation-bar2 ul li {
+  padding: 0px;
+  margin: 10px;
+  display:flex;
+  vertical-align:top;
+  float:left;
+
+}
+
+.navigation-bar2  ul li a {
+    vertical-align: top;
+    margin-right: 20px;
+    height: 0px;        
+    line-height: 0px;
+    float:right;
+    text-decoration: none;
+}
+
+
+.cart {
+    height:15px;
+}
+
+
+
+.miFlex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 40%;
+    float:center;
+
+}
+ 
+.artist  {
+    text-align: center;
+}
+
+.lineupbutton {
+    text-align:center;
+}
+
+ .shop {
+    display: flex;
+    justify-content: center;
+ 	background-color:#E8B9AF;
+ }
+
+.shopbutton {
+    text-align: center;
+}
+
+ @font-face {
+ 	font-family: HelveticaNeue;
+
+ }
+
+ 
